@@ -26,6 +26,7 @@ public class NuevoHilo extends Thread{
         esperar(80);
         System.out.println("Stop");
         panel.ocultarImagenes();
+        panel.botonesActivos=true;
         
     }
     

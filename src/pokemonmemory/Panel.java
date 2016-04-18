@@ -31,7 +31,7 @@ public class Panel extends JPanel implements ActionListener {
     
     
     private int intentos =0,aciertos =0,puntos=0;
-    private boolean botonesActivos=false;
+    public boolean botonesActivos=false;
     
     ArrayList<String> arrayLista = new ArrayList<>();
     ArrayList<JButton> arrayBtnSelec = new ArrayList<>();
@@ -118,7 +118,7 @@ public class Panel extends JPanel implements ActionListener {
         
          
         
-        if (!botonesActivos){
+        if (botonesActivos){
              
         JButton button = (JButton) ae.getSource();
         

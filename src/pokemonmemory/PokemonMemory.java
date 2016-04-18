@@ -17,6 +17,7 @@ public class PokemonMemory  {
         
         
         frame.setContentPane(panelTitulo);
+       frame.setResizable(false);
        frame.setVisible(true);
        frame.setBounds(0, 0, 580, 680);
        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
